@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Of Famous Singers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Image Gallery Of Best Singers</h1>
+    <div class="buttons">
+    <button onclick="filterSelection('all')">All</button>
+    <button onclick="filterSelection('korean')">Korean</button>
+    <button onclick="filterSelection('american')">American</button>
+    <button onclick="filterSelection('indian')">Indian</button>
+    </div>
+
+    <div class="gallery">
+        <img src="images/image1.png" alt="" class="filter indian">
+        <img src="images/image2.png" alt="" class="filter korean">
+        <img src="images/image3.png" alt="" class="filter korean">
+        <img src="images/image4.png" alt="" class="filter american">
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img">
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
