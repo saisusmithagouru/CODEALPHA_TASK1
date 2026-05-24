@@ -1,6 +1,9 @@
 # CODEALPHA_TASK1
 Frontend Development Internship Task at CodeAlpha
 # Image Gallery
+## Project Preview
+
+![Project Screenshot](screenshot of output.png)
 
 This project was developed as part of the CodeAlpha Frontend Development Internship.
 
